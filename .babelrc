@@ -1,0 +1,17 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "modules": "commonjs",
+        "useBuiltIns": true,
+        "loose": true,
+        "target": {
+          "node": "current",
+          "browsers": "> 2%"
+        }
+      }
+    ]
+  ],
+  "plugins": ["transform-runtime"]
+}
